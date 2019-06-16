@@ -1,0 +1,225 @@
+C & C Puzzles
+
+    C Vs Embedded C vs C++ What is the difference between C and embedded C?
+    C compilation steps
+    Know about “static, global/extern, auto, register, const and volatile” very well. When do you use static keyword for a global variable?
+    Use of volatile keyword?
+    Know about “structure, union and enum”.
+    What is the difference between Structure and union? Where do we use union? Structs and Unions and their paddings.
+    Know about basic pointers concepts. Double Pointers. Pointer aliasing, Multiple indirection.
+    Function pointers and Callback functions
+    Char ptr, int ptr & their sizes? pointer aliasing.
+    Null ptr, void ptr and their uses?
+    malloc vs calloc vs realloc.
+    File operations in linux
+    Typecasting
+    Inline function. Difference between Inline and macro.
+    Preprocessor directives.
+    Bit manipulation - Set, Get, Clear, Toggle, Shift, Display Bits
+    Bit Fields in C
+    Difference between heap and stack? Write a function to figure out if stack grows up or down.
+    Memory leak
+
+C Program to
+
+    Reverse bits in a number.
+    Count the number of set bits in a byte/word/dword/qword
+    Swap nibbles in a byte
+    Reverse a string.
+    Print the diagonal elements of a matrix.
+    Strip whitespace from a string in-place.
+    Remove duplicate chars from a string ("AAA BBB" -> "A B")
+    Find the first non-repeating character in a string ("ABCA" -> B)
+    Dynamic Memory allocation of a 2D array
+    Transpose of a Matrix
+    Different ways of swapping two numbers.
+    Find size of a data type without sizeof operator.
+    Find little endian or big endian.
+    prints the numbers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
+
+Data structures
+
+    Linked List and its flavors
+    Stack – implementation using arrays and linked list
+    Queue – implementation using arrays and linked list
+    Implement the following functions for a binary tree:
+     Insert
+     PrintInOrder
+     PrintPreOrder
+     PrintPostOrder
+     Implement a non-recursive PrintInOrder
+
+Algorithms
+
+    Know about Time and Space Complexity of basic algorithms
+    Sorting and Searching algorithms.
+    Reverse a linked list, circular linked list
+    To find factorial with and without recursion.
+    To identify the Pythagoras triangle.
+    To identify palindrome.
+    To generate Fibonacci sequence.
+    Find if a linked list has a cycle in it. Now do it without marking nodes (detect loop in linked list)
+    Find the middle of a linked list. Now do it while only going through the list once (same solution as finding cycles)
+
+Computer Architecture – Microprocessor, Microcontrollers (8051), ARM, DSP and other SoC peripherals / Controllers
+
+    CISC Vs RISC
+    Harvard vs Von Neuman Architecture
+    Flynn’s Taxonomy
+    DMA VS Polling vs Interrupts
+    I/O mapped I/O vs Memory Mapped I/O
+    Virtual Memory
+    Pipeline
+    Instruction Level Parallelism, Thread Level Parallelism.
+    Superscalar Architecture, VLIW Architecture, EPIC Architecture, SMT and Multi-core
+    RAM Vs ROM
+    Various Addressing modes in 8086
+    What are interrupts? Types of interrupts?
+    What is ISR?
+    What is return type of ISR?
+    Can we use any function inside ISR?
+    Can we use printf inside ISR?
+    Can we put breakpoint inside ISR?
+    What is interrupt latency?
+    Types of Cache mapping.
+    what is Snooping Cache?
+    Watchdog Timer
+    Brown out Reset (COP Timer), Power On Reset
+    DRAM/ SDRAM Controller
+    e-Flash Controller
+    Interrupt Controller
+    Timers
+    DMA Controller
+
+Operating System/ Real Time Concepts
+
+    When do you need an OS?
+    When do you need a RTOS?
+    RTOS VS Time Shared OS?
+    Give some examples of GPOS and RTOS.
+    Soft real-time vs Hard real-time
+    What is Real time and what is RTOS?
+    Difference between various kernels. monolithic kernel, micro kernel, nano kernel, exo kernel, hybrid kernel, resource kernel.
+    What is priority inversion? Why priority inversion occurs and solutions for it?
+    What is priority inheritance?
+    Process vs threads
+    IPC mechanisms
+    Threads- Mutex, semaphore, conditional variables
+    Preemptive vs Non preemptive Scheduling
+    What is scheduling? And its types?
+    What is priority scheduling?
+    What is super loop?
+    Process states
+    Demand paging
+    Kernel
+    Thread
+    What are device-drivers?
+    What are interrupts?
+    What are short-term, medium-term and Long-term Schedulers?
+    What is SMP (Shared Multi-Processing)?
+    What is context switch?
+    What are the information in the PCB?
+    Cpu Bound vs I/O Bound?
+    Memory layout of a process
+    Multithreads
+    Deadlock?
+    Conditions for deadlock?
+    Detecting and avoiding deadlocks?
+    Livelock?
+    Spinlock?
+    Race Condition?
+    Semaphores?
+    Mutex?
+    Binary semaphore vs Count semaphore
+    Semaphore vs Mutex
+    Difference between Mutexes and Critical Sections?
+     What are Reentrant Locks? Implement a Reentrant Lock with Mutexes.
+    Paging
+    Segmentation
+    Swapping
+    Fragmentation
+    Thrashing
+    What is Top half & bottom half of a kernel?
+
+Linux Concepts
+
+    Linux commands
+    What are different types of shell and why bash?
+    POSIX API. How pthreads are different from RTOS threads?
+
+Communication / DSP / Networking Concepts
+
+    Sampling, sampling period & sampling rate
+    cut-off frequency
+    Frequency bandwidth
+    Nyquist theorem
+    Aliasing and Anti-aliasing
+    Signal to Noise Ratio
+    Truncation/ rounding
+    Convolution
+    Correlation
+    FFT
+    FIR, IIR Filters
+    OSI Layers
+    TCP/IP Layers
+    Difference between TCP and UDP? When would you want to use one over the other?
+    Piggybacking
+    ARP
+    DHCP
+    Other basic concepts of Communication
+
+Short range Wireless & On-Chip/Board Communication Protocols
+
+    I2C
+    SPI
+    CAN
+    LIN
+    UART
+    Bluetooth(Bluetooth Low Energy)
+    Ethernet
+    IEEE 802.11
+    ZigBee
+    PCI
+    LORA
+    Zwave
+    LTE
+
+Analog & Digital Design Concepts – FPGA/ASIC
+
+    Significance of 32.768KHz frequency as clock source?
+    Different Flip flops, Counters.
+    Sequential Circuit, Combinational Circuit.
+    Binary to Octal, Hexadecimal Conversion.
+    What are Fan in and Fan out?
+    What is Tristate logic?
+    What are error levels?
+    Transition times in gate?
+    MUX, DEMUX, Encoder, Decoder
+    Implement some cicuit with transistor and basic opamp concepts.
+    Frequency divider circuit.
+    Draw 200Hz waveform and then draw 50 Hz wave form wid ref to 200Hz.
+    VLSI Design Flow
+    DAC
+    PWM
+    ADC - Bit resolution during conversion.
+    PLL, Op-Amps, Analog MUX.
+    Designing basic gates using NMOS and PMOS.
+    Draw current gain amplifier using BJT and MOSFET.
+
+General
+
+    Questions from your project. How did you connect that particular sensor to the board? Any protocol? Clock frequency of the used controller? pinouts of the sensors?
+    Why did you choose that controller for your project and why not the other one?
+    How will you debug a program?
+    What to do if your software in the SoC hangs?
+    Use of JTAG?
+    In-System Programming?
+    How do you use Oscilloscope, Logic Analyzer, Spectrum Analyser, CANanalyzer?
+    Difference between a BIOS and UEFI boot process?
+    Difference between a PC Boot and Smartphone boot?
+    Writing portable code in C.
+    How do you make inline assembly code in C?
+    Explain how shared memory works? (A good candidate will know details like why pointers are stored as offsets and how to protect memory regions using semaphores. )
+    What happens on a system call? (A good answer will include a description of processor interrupts and how the hardware handles them, scheduling decisions, marshaling parameters, etc. (For embedded programmers a question dealing with concurrent operations can be substituted.)
+    How would you read in a string of unknown length without risking buffer overflow?
+    What is ABI/API?

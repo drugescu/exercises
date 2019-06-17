@@ -45,5 +45,10 @@ int main()
     printf("show_pointer(%p) = ", p);
     show_pointer(p); 
 
+    int a;
+    int b;
+
+    printf("Address of a(%p) and addr of b(%p)\n", &a, &b);
+
     return 0; 
 } 

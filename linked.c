@@ -52,7 +52,7 @@ void insert_end(list_t** l, int n) {
 		}
 
 		current->next = new;
-	}	
+	}
 }
 
 void delete(list_t** l, int n) {
@@ -94,7 +94,7 @@ void delete_list(list_t** l) {
 		next = p->next;
 		free(p);
 		p = next;
-	} 
+	}
 
 	*l = NULL;
 }
@@ -265,7 +265,7 @@ void main() {
 	printList(nlist);
 
 	printf("List size is: %d\n", list_size(nlist));
-	/*sort_list(&nlist);*/
+	sort_list(&nlist);
 
 	/* should show 1,2,3,5,10,20,30 */
 	printList(nlist);

@@ -124,16 +124,16 @@ int getAdjUnvisitedVertex(int m[][MAX], int tempx, int tempy, int* newx, int* ne
 
 void dfs(int m[][MAX], int initx, int inity, int targetx, int targety, int steps) {
 	int Ex = initx;
-	int Ey = inity + 1; 
+	int Ey = inity + 1;
 
 	int Wx = initx;
-	int Wy = inity - 1; 
+	int Wy = inity - 1;
 
 	int Sx = initx + 1;
-	int Sy = inity; 
+	int Sy = inity;
 
 	int Nx = initx - 1;
-	int Ny = inity; 
+	int Ny = inity;
 
 	int nextX[] = {Ex, Wx, Sx, Nx};
 	int nextY[] = {Ey, Wy, Sy, Ny};
@@ -180,7 +180,7 @@ void bfs(int m[][MAX], int initx, int inity, int targetx, int targety, int steps
 		//printf("Popped (%d,%d), steps = %d.\n", tempx, tempy, stepmat[tempx][tempy]);
 
 		//no adjacent vertex found
-		while(ERROR != getAdjUnvisitedVertex(m, tempx, tempy, &newx, &newy)) {    
+		while(ERROR != getAdjUnvisitedVertex(m, tempx, tempy, &newx, &newy)) {
 			//printf("Pushed (%d,%d) with steps = %d.\n", newx, newy, stepmat[tempx][tempy] + 1);
 
         	visited[newx][newy] = VISITED;
@@ -193,12 +193,12 @@ void bfs(int m[][MAX], int initx, int inity, int targetx, int targety, int steps
 			}
 
       	}
-		
+
 		//printf("\n");
 	}
 
-	//queue is empty, search is complete, reset the visited flag        
-   for(i = 0; i < MAX; i++) 
+	//queue is empty, search is complete, reset the visited flag
+   for(i = 0; i < MAX; i++)
    		for (j = 0; j < MAX; j++)
       		visited[i][j] = NOT_VISITED;
 }
@@ -210,7 +210,7 @@ void main() {
 						{ 0, 1, 0, 0, 1, 0 },
 						{ 0, 1, 0, 1, 1, 0 },
 						{ 0, 1, 1, 1, 1, 1 },
-						{ 0, 1, 1, 0, 0, 1 } };	
+						{ 0, 1, 1, 0, 0, 1 } };
 
 	int initx = 0;
 	int inity = 0;
